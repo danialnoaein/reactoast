@@ -38,6 +38,7 @@
     "clsx": "^1.1.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/danialnoaein/reactoast"
+    "registry": "https://npm.pkg.github.com/danialnoaein/reactoast",
+    "tag": "latest"
   }
 }
