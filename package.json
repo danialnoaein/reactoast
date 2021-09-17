@@ -36,5 +36,8 @@
   },
   "dependencies": {
     "clsx": "^1.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/danialnoaein/reactoast"
   }
 }
