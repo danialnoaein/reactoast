@@ -17,6 +17,6 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - uses: coverallsapp/github-action@v1.1.2
+      - uses: JS-DevTools/npm-publish@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NPM_TOKEN }}
