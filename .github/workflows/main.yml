@@ -18,5 +18,3 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm config set '//registry.npmjs.org/:_authToken' "${{ secrets.NPM_TOKEN }}"
       - run: npm publish
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
